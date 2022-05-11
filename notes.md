@@ -4,6 +4,11 @@
 ## É ai que entra a função do Next: 
     - O next basicamente carrega todo o conteúdo pelo servidor NodeJS dele e já devolve para o Browser seu código em HTML, nisso, fazendo os motores de buscas entenderem a sua página e fazerem uma melhor indexação dela.
 
+## As três formas de renderização no Next:
+    - Client Side ( Chamadas realizadas pelo Client (Browser), ou seja, a forma padrão que fazemos do React)
+    - SSR ( Server-Side Rendering | Seria uma forma de toda hora ele realiar a chamada pelo Servidor Node do Next porém retornando o dado dinâmico preparado na hora)
+    - SSG ( Static Site Generation | Seria uma forma de ele realizar apenas uma chamada a cada determinada hora e retorna para todos os usuários o mesmo conteúdo até dar esse tempo para ele    realizar a chamada novamente)
+
 
 ## Caminho do SPA/React:
 
